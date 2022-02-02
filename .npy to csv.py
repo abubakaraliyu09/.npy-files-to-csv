@@ -17,9 +17,3 @@ y=pd.DataFrame(ids)#.to_csv('IDS.csv',index=False)
 horizontal_stack = pd.concat([y, x], axis=1)
 print(horizontal_stack)
 horizontal_stack.to_csv('Concat.csv',index=False)
-
-
-
-#df = pd.DataFrame.from_dict(dic, orient='columns')
-#print(df)
-#df.to_csv(f'{output_path}/{dataset_prefix}_{i}_knn.csv', header=True, index=False)
